@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zennials | Music Store</title>
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+</head>
+<style>
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: url("images/background1.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.navbar{
+    width: 88%;
+    margin: auto;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 200px;
+    cursor: pointer;
+}
+.navbar ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 15px;
+    font-size: 20px;
+    background-color: rgb(77, 77, 145);
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 2px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color:white;
+}
+
+.content{
+    width: 100%;
+    position: absolute;
+    top: 30%;
+}
+.left-col{
+    margin-left: 6%;
+
+}
+.left-col h1{
+    font-size: 50px;
+    color: white;
+    line-height: 110px;
+    float: left;
+    text-shadow: -1px 1px 0 #000;
+}
+.right-col{
+    float:right;
+    margin-right: 6%;
+    margin-top: 120px;
+    display: flex;
+    align-items: center;
+}
+.right-col p{
+    font-size: 19px;
+    color:white; 
+    font-weight: 400;
+    margin-right: 15px;
+    text-shadow: -1px 1px 0 #000;
+}
+#icon{
+    width: 80px;
+    cursor: pointer;
+}
+.btn .color1{
+  background-color: crimson;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 20px 40px;
+  margin: 15px;
+  border-radius: 50px;
+}
+.btn .color2{
+  background-color: crimson;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 20px 40px;
+  margin: 10px;
+  border-radius: 50px;
+}.btn .color1:hover{
+    color: crimson;
+    background-color: white;
+    border: 2px solid crimson;
+}
+.btn .color2:hover{
+    color: crimson;
+    background-color: white;
+    border: 2px solid crimson;
+}
+.btn{
+    margin-top:450px;
+    margin-left: 5%;
+}
+.footer{
+    background-color: rgb(90, 90, 90);
+    color: white;
+    padding:80px;
+}
+.column div{
+    width: 20%;
+    float: left;
+}
+@media only screen and (max-width:814px){
+    #box-1{
+        display: block;       
+    }
+}
+@media only screen and (max-width:500px){
+    .navbar ul li{
+        margin: 3px;
+        padding: 2px;
+        width: 100%;
+        border-radius:50px ;
+        text-align: center;
+        
+    }
+    .right-col{
+        float: left;
+        margin-left: 33px;
+        margin-top: -10px;
+    }
+    .btn .color1{
+        padding: 10px;
+    }
+    .btn .color2{
+        padding: 10px;
+    }
+    #icon{
+        width: 40px;
+    }
+    .column div{
+        float: none;
+        padding: 10px;
+    }
+    .column div a{
+        float: right;
+     }
+     .btn{
+         margin-top:350px;
+     }
+
+    .footer hr{
+        margin-top: -10px;
+    }
+    .columnn{
+    padding: 0;
+    margin: 0;
+    }
+    
+} 
+.column a{
+    text-decoration: none;
+    color: white;
+}
+.column a:hover{
+    text-decoration:underline;
+}
+</style>
+<body>
+    <!--If you are a music lover you can make a webpage for it. It requires HTML5/CSS3 knowledge. Add a suitable background image describing the purpose or what the page is all about. In the header section add different menus. Add buttons, links, images and some description about the collection of songs available. At the bottom mention the links for shopping, store, career or contact details. You can also add other features on your webpages such as a trial option, gift cards or subscription. Make it responsive setting viewport or using media queries and grid. You can take help from the myTunes.-->
+
+   <div class="container">
+       <div class="navbar" id="box-1">
+           <a href="index.html"><img src="images/logo.png" alt="" class="logo"></a>
+         <div> 
+             <ul>
+               <li><a href="index.html">HOME</a></li>
+               <li><a href="Collection.html">COLLECTIONS</a></li>
+               <li><a href="Product.html">PRODUCTS</a></li>
+               <li><a href="Contact.html" target="blank">CONTACT US</a></li>
+           </ul>
+        </div>
+       </div>
+       <div class="content">
+           <div class="left-col">
+             <h1>LET <br>THE MUSIC <br>SPEAK</h1>
+           </div>
+           <div class="right-col">
+               <p>Click here to Listen</p>
+               <img src="images/play.png" alt="" id="icon">
+           </div>
+       </div>
+       <div class="btn"> 
+        <a href="arzoo.html" class="color1">MERCHANDISE</a>
+        <a href="signup.html" class="color2">SIGN UP</a>
+    </div> 
+   </div>
+   <div class="footer">
+       <hr style="margin-bottom:10px">
+    <div class="column">
+        <div class="columnn" >About Us <br>198 West 22th Street, <br> Suite 234 New York NY 10016</div>
+        <div class="columnn" >Store <br> <a href="Product.html">products</a> <br> <a href="arzoo.html">merchandise</a></div>
+        <div class="columnn" >Contact
+           <br> info@Zennials.com <br> +917849052490 <br> Zennials.com
+        </div>
+        <div class="columnn" >Stay connected
+            <br>
+            <a href=""><img src="images/white-fb.png" alt="" width="30px"></a>
+            <a href=""><img src="images/insta-white.png" alt="" width="23px"></a>
+        </div>
+    </div>
+   </div>
+
+
+
+<audio id="mySong">
+    <source src="audio/Jonas_Brothers_-_Sucker_(Lyrics)_(_256kbps_cbr_).mp3" type="audio/mp3">
+</audio>
+<script>
+    var mySong = document.getElementById("mySong");
+    var icon = document.getElementById("icon");
+
+    icon.onclick=function(){
+        if(mySong.paused){
+            mySong.play();
+            icon.src="images/pause.png";
+        }else{
+            mySong.pause();
+            icon.src="images/play.png";
+        }
+    }
+</script>
+</body>
+</html>
