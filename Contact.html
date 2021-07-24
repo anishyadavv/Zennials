@@ -1,0 +1,160 @@
+<html>
+<head>
+<title> Contact page </title>
+<link rel="stylesheet" href = "contact.css">
+</head>
+<style>
+    body{
+margin:0 px;
+padding:0 px;
+background-image: url("images/image.png");
+background-size: cover;
+background-position: center;
+font-size: 18px;
+font-family:sans-serif;
+}
+.container{
+width: 80%;
+margin:50px;
+color: white;
+
+}
+.contactbox{
+
+display:flex;
+
+}
+.left-side{
+
+flex-basis: 60%;
+padding: 40px;
+margin-top: 30px;
+}
+
+.right-side{
+flex-basis: 30%;
+padding: 40px 50px;
+color:Black;
+background:white;
+}
+
+h1{
+margin-bottom: 20px;
+margin-left: 50px;
+text-shadow: -1px 1px black;
+}
+
+.input-row{
+
+justify-content: space-between;
+margin-bottom: 20px;
+}
+
+input{
+width: 100%;
+border: none;
+border-bottom: 1px solid black;
+outline: none;
+padding-bottom: 5px;
+margin: 10px;
+}
+
+textarea{
+width: 100%;
+border: 1px solid black;
+outline:none;
+padding: 10px;
+}
+
+label{
+margin-bottom: 6px;
+display: block;
+color: Black;
+}
+
+button{
+background: blue;
+width: 100px;
+border: none;
+outline: none;
+color: white;
+height: 35px;
+border-radius: 30px;
+margin-top: 20px;
+}
+
+tr td{
+
+color:white;
+text-shadow: -1px 1px black;
+font-size: 25px;
+}
+tr td:first-child{
+padding-right: 20px;
+}
+
+tr td:first-child{
+padding: 10px;
+}
+.right-side{
+    margin-top: -150px;
+    border-radius: 40px;
+}
+.container a img{
+margin-left: 40px;
+}
+@media only screen and (max-width:500px) {
+  #box-2{
+    display: block;
+  }
+}
+</style>
+<body>
+<div class="container">
+  <a href="index.html"><img src="images/logo.png" alt="" width="200px"></a>  
+<h1> Connect With Us </h1>
+<div class= "contactbox">
+<div class="left-side" id="box-1">
+
+<table  cellspacing ="4" cellpadding="4">
+<tr>  
+<td> ADDRESS: </td> <td> 198 West 22th Street, Suite 234 New York NY 10016</td>
+</tr>
+<tc> <td> PHONE: </td> <td> +91 7849052490 </td> </tc>
+
+<tr><td> EMAIL: </td> <td>info@Zennials.com </td> </tr>
+<tr> <td> WEBSITE: </td> <td> Zennials.com </td></tr>
+</table>
+</div>
+
+<div class="right-side" id="box-2">
+<h1> Get in touch </h1>
+<form action="MAILTO: " method="post" enctype="text/plain">
+<div class="input-row"> 
+
+<label> Name </label>
+<input type="text" name="name">
+
+
+<label> Email Address</label>
+<input type="email" name="email" >
+ 
+
+
+<div class="input-group">
+<label> Password </label>
+<input type="password" name="password" >
+</div>
+
+<label> Message </label>
+<textarea rows="6" cols="7" placeholder="Type Your Message here...">
+</textarea>
+
+<button type="submit"> Send </button>
+</form>
+
+</div>
+</div>
+</div>
+</body>
+</html>
