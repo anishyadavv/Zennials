@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>COLLECTIONS</title>
     <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
 </head>
 <style>
@@ -139,13 +140,22 @@ audio{
         text-align: center;
         
     }
-    .left-col{
-        margin-top: 80px;
-    }
-    .left,.right,.center{
-        float: none;
+    .row{
+        margin-left: 50px;
     }
 }
+@media only screen and (min-width:1217px){
+    .row{
+        margin-left: 150px;
+    }
+}
+@media (min-width:600px) and (max-width:1217px)
+{
+    .row{
+        margin-left:100px;
+    }
+}
+
 @media only screen and (max-width:814px){
     #box-1{
         display: block;       
@@ -177,7 +187,8 @@ audio{
        <div class="footer">
            <h1>Collections Available</h1>
         <div class="containerr">
-            <div class="left">
+            <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-6">
                <img src="https://upload.wikimedia.org/wikipedia/en/thumb/d/dd/Thank_U%2C_Next_album_cover.png/220px-Thank_U%2C_Next_album_cover.png" alt="" width="200px">
                <h2> THANK U, NEXT </h2>
                <audio controls>
@@ -186,7 +197,7 @@ audio{
               </audio>
             </div>
             
-            <div class="center">
+            <div class="col-lg-4 col-md-6 col-sm-6">
                 <img src="https://upload.wikimedia.org/wikipedia/en/thumb/2/23/Romance_%28Official_Album_Cover%29_by_Camila_Cabello.png/220px-Romance_%28Official_Album_Cover%29_by_Camila_Cabello.png"  alt="tshirt design" width="200px" height="200px">
                 <h2> ROMANCE </h2>
                 <audio controls>
@@ -195,7 +206,7 @@ audio{
                   </audio>
             </div>
             
-            <div class="right">
+            <div class="col-lg-4 col-md-6 col-sm-6">
                 <img src="https://upload.wikimedia.org/wikipedia/en/thumb/a/ab/Little_Mix_-_Confetti.png/220px-Little_Mix_-_Confetti.png"  alt="tshirt design" width="200px" height="200px">
                 <h2> CONFETTI </h2>
                 <audio controls>
@@ -204,7 +215,7 @@ audio{
                   </audio>
             
             </div>
-            <div class ="left bottom">
+            <div class ="col-lg-4 col-md-6 col-sm-6">
                 <img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/45/Divide_cover.png/220px-Divide_cover.png" alt="" width="200px">
                 <h2> DIVIDE </h2>
                 <audio controls>
@@ -212,7 +223,7 @@ audio{
                   Your browser does not support the audio element.
                   </audio>
             </div>
-            <div class ="center bottom">
+            <div class ="col-lg-4 col-md-6 col-sm-6">
                 <img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/0b/Astroworld_by_Travis_Scott.jpg/220px-Astroworld_by_Travis_Scott.jpg" alt="" width="200px">
                 <h2> ASTROWORLD </h2>
                 <audio controls>
@@ -220,7 +231,7 @@ audio{
                   Your browser does not support the audio element.
                   </audio>
             </div>
-            <div class="right bottom">
+            <div class="col-lg-4 col-md-6 col-sm-6">
                 <img src="https://upload.wikimedia.org/wikipedia/en/thumb/3/39/The_Weeknd_-_Starboy.png/220px-The_Weeknd_-_Starboy.png" alt="" width="200px">
                 <h2> STARBOY </h2>
                 <audio controls>
@@ -228,7 +239,7 @@ audio{
                   Your browser does not support the audio element.
                   </audio>
             </div>
-            <div class="left bottom ">
+            <div class="col-lg-4 col-md-6 col-sm-6">
                 <img src="https://upload.wikimedia.org/wikipedia/en/thumb/1/1b/Adele_-_21.png/220px-Adele_-_21.png" alt="" width="200px">
                 <h2> 21</h2>
                 <audio controls>
@@ -236,7 +247,7 @@ audio{
                   Your browser does not support the audio element.
                   </audio>
             </div>
-            <div class="center bottom">
+            <div class="col-lg-4 col-md-6 col-sm-6">
                 <img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/45/Billie_Eilish_-_Happier_Than_Ever.png/220px-Billie_Eilish_-_Happier_Than_Ever.png" alt="" width="200px">
                 <h2> HAPPIER THAN EVER</h2>
                 <audio controls>
@@ -244,7 +255,7 @@ audio{
                   Your browser does not support the audio element.
                   </audio>
             </div>
-            <div class="right bottom">
+            <div class="col-lg-4 col-md-6 col-sm-6">
                 <img src="https://upload.wikimedia.org/wikipedia/en/thumb/2/27/Justin_Bieber_-_Purpose_%28Official_Album_Cover%29.png/220px-Justin_Bieber_-_Purpose_%28Official_Album_Cover%29.png" alt="" width="200px">
                 <h2>PURPOSE</h2>
                 <audio controls>
@@ -252,7 +263,7 @@ audio{
               Your browser does not support the audio element.
               </audio>
             </div>
-            <div class="left bottom">
+            <div class="col-lg-4 col-md-6 col-sm-6">
                 <img src="https://upload.wikimedia.org/wikipedia/en/thumb/c/cd/Taylor_Swift_-_Lover.png/220px-Taylor_Swift_-_Lover.png"alt=""width="200px">
                 <h2> LOVER </h2>
                 <audio controls>
@@ -260,7 +271,7 @@ audio{
               Your browser does not support the audio element.
               </audio>
             </div>
-            <div class="center bottom">
+            <div class="col-lg-4 col-md-6 col-sm-6">
                 <img src="https://upload.wikimedia.org/wikipedia/en/thumb/6/68/Shawn_Mendes_-_Wonder.png/220px-Shawn_Mendes_-_Wonder.png"alt=""width="200px">
                 <h2> WONDER </h2>
                 <audio controls>
@@ -268,7 +279,7 @@ audio{
               Your browser does not support the audio element.
               </audio>
             </div>
-            <div class="right bottom">
+            <div class="col-lg-4 col-md-6 col-sm-6">
                 <img src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d7/The_Chainsmokers_%E2%80%93_Sick_Boy_album.png/220px-The_Chainsmokers_%E2%80%93_Sick_Boy_album.png"alt=""width="200px">
                 <h2> SICK BOY </h2>
                 <audio controls>
@@ -276,7 +287,7 @@ audio{
               Your browser does not support the audio element.
               </audio>
             </div>
-            <div class="left bottom">
+            <div class="col-lg-4 col-md-6 col-sm-6">
                 <img src="https://upload.wikimedia.org/wikipedia/en/thumb/e/eb/Zayn_%E2%80%93_Icarus_Falls.png/220px-Zayn_%E2%80%93_Icarus_Falls.png"alt=""width="200px">
                 <h2> ICARUS FALLS</h2>
                 <audio controls>
@@ -284,7 +295,7 @@ audio{
               Your browser does not support the audio element.
               </audio>
             </div>
-            <div class="center bottom">
+            <div class="col-lg-4 col-md-6 col-sm-6">
                 <img src="https://upload.wikimedia.org/wikipedia/en/thumb/9/90/Scorpion_by_Drake.jpg/220px-Scorpion_by_Drake.jpg"alt=""width="200px">
 
                 <h2> SCORPION </h2>
@@ -293,7 +304,7 @@ audio{
               Your browser does not support the audio element.
               </audio>
             </div>
-            <div class="right bottom "> 
+            <div class="col-lg-4 col-md-6 col-sm-6"> 
                 <img src="https://upload.wikimedia.org/wikipedia/en/thumb/6/60/Recovery_Album_Cover.jpg/220px-Recovery_Album_Cover.jpg"alt=""width="200px">
                 <h2> RECOVERY </h2>
                 <audio controls>
@@ -301,6 +312,7 @@ audio{
               Your browser does not support the audio element.
               </audio>
             </div>
+        </div>
         </div>          
        </div>
 </body>
